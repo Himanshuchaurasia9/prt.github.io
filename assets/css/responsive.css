@@ -1,0 +1,87 @@
+@media (max-width: 991px) {
+    .featured-box{
+        justify-content: unset !important;
+        border: unset !important;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .btn-danger{
+        font-size: 1rem;
+        padding: 0.4rem 1rem;
+    }
+    .carousel-indicators{
+        bottom: -25%;
+    }
+    .home .home-text{
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+        margin: 0 auto;
+    }
+    .home .carousel-item{
+        height: 40vh;
+    }
+    .home img{
+        height: 100%;
+    }
+    .home .home-text h3{
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--text-white);
+    }
+    .home .home-text p{
+        font-size: 0.8rem;
+        line-height: normal;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+    .home .border-end{
+        border-right: 0 !important;
+    }
+    .cardoverlay{
+        transform: translate(0%,0%);
+    }
+    .about .desc .btn{
+        margin-top: 1rem;
+    }
+    
+    .team .team-card .card{
+        width: 100% !important;
+    }
+    .footer .social{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer .credit{
+        font-size: 0.8rem;
+        text-align: center;
+        display: block;
+    }
+    .footer .credit .lbtn{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:330px) {
+    .home .carousel-item{
+        height: 30vh;
+    }
+    .home img{
+        height: 100%;
+    }
+    .footer .credit{
+        font-size: 0.8rem;
+        text-align: center;
+        display: block;
+    }
+}
+        
+      
